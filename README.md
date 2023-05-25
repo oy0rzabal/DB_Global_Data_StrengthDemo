@@ -1,0 +1,1 @@
+# DB_Global_Data_StrengthDemo
