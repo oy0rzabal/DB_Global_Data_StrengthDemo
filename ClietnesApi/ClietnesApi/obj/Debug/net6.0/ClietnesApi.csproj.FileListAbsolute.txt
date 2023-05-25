@@ -1,0 +1,6 @@
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClietnesApi\ClietnesApi\obj\Debug\net6.0\ClietnesApi.csproj.AssemblyReference.cache
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClietnesApi\ClietnesApi\obj\Debug\net6.0\ClietnesApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClietnesApi\ClietnesApi\obj\Debug\net6.0\ClietnesApi.AssemblyInfoInputs.cache
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClietnesApi\ClietnesApi\obj\Debug\net6.0\ClietnesApi.AssemblyInfo.cs
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClietnesApi\ClietnesApi\obj\Debug\net6.0\ClietnesApi.csproj.CoreCompileInputs.cache
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClietnesApi\ClietnesApi\obj\Debug\net6.0\ClietnesApi.MvcApplicationPartsAssemblyInfo.cache
