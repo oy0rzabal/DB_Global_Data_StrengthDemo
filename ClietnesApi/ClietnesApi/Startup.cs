@@ -1,4 +1,7 @@
-﻿namespace ClientesAPI
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+
+namespace ClientesAPI
 {
     public class Startup
     {
@@ -12,9 +15,13 @@
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Startup)); //Configuracion: DependencyInjection - Automapper
+
+            services.AddDbContext<ApplicationDBContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))); //Dependencia DB - Conextion
+
             services.AddControllers();
-            services.AddEndpointsApiExplorer();
-;        }
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
