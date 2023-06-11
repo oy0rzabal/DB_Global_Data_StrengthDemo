@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "fUUBvm5vnQsjWHNtGHqgjUAwj0tq9lePGWjEEm34xuE=",
+  "Source": "ClientesAPI",
+  "BasePath": "_content/ClientesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ClientesAPI\\wwwroot",
+      "Source": "ClientesAPI",
+      "ContentRoot": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\ClietnesApi\\wwwroot\\",
+      "BasePath": "_content/ClientesAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
