@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ClientesAPI.Heplers;
 
 namespace ClientesAPI.DTOs
 {
@@ -14,7 +15,11 @@ namespace ClientesAPI.DTOs
         [TipoArchivoValidacion(GrupoTipoArchivo.Imagen)]
         public IFormFile Poster { get; set; }
 
+        [ModelBinder(BinderType = typeof(TypeBinder))]
         public List<int> GnerosIDs { get; set; }
+
+        [ModelBinder(BinderType = typeof(TypeBinder))]
+        public List<ActorPeliculaCreacionDTO> Actores {  get; set; }
 
     }
 }

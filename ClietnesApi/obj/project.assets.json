@@ -3792,11 +3792,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\ClietnesApi\\ClientesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\DB_Global_Data_StrengthDemo\\ClietnesApi\\ClientesAPI.csproj",
       "projectName": "ClientesAPI",
-      "projectPath": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\ClietnesApi\\ClientesAPI.csproj",
+      "projectPath": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\DB_Global_Data_StrengthDemo\\ClietnesApi\\ClientesAPI.csproj",
       "packagesPath": "C:\\Users\\oy0rzabal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\ClietnesApi\\obj\\",
+      "outputPath": "C:\\Users\\oy0rzabal\\Desktop\\DB_Global_Data_StrengthDemo\\DB_Global_Data_StrengthDemo\\ClietnesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
