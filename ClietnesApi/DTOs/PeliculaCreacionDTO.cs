@@ -1,11 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using ClientesAPI.Validaciones;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using ClientesAPI.Helpers;
 using ClientesAPI.Heplers;
+using ClientesAPI.Validaciones;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ClientesAPI.DTOs
 {
@@ -15,11 +11,10 @@ namespace ClientesAPI.DTOs
         [TipoArchivoValidacion(GrupoTipoArchivo.Imagen)]
         public IFormFile Poster { get; set; }
 
-        [ModelBinder(BinderType = typeof(TypeBinder))]
-        public List<int> GnerosIDs { get; set; }
+        [ModelBinder(BinderType = typeof(TypeBinder<List<int>>))]
+        public List<int> GenerosIDs { get; set; }
 
-        [ModelBinder(BinderType = typeof(TypeBinder))]
-        public List<ActorPeliculaCreacionDTO> Actores {  get; set; }
-
+        [ModelBinder(BinderType = typeof(TypeBinder<List<ActorPeliculasCreacionDTO>>))]
+        public List<ActorPeliculasCreacionDTO> Actores { get; set; }
     }
 }

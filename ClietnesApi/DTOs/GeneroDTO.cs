@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClientesAPI.DTOs
 {
-    public class GeneroDTO: GeneroCreacionDTO
+    public class GeneroDTO : GeneroCreacionDTO
     {
-        public int Id { get; set; } //IdentificadorID
-
-
-
-    }
+        public int Id { get; set; }//IdentificadorID
+    } 
 }

@@ -1,16 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClientesAPI.Heplers
+namespace ClientesAPI.Helpers
 {
     public class TypeBinder<T> : IModelBinder
     {
-        public Task BindModelAsync(ModelBindingContext bidingContext) 
+        public Task BindModelAsync(ModelBindingContext bindingContext)
         {
-            var nombrePropiedad = bidingContext.ModelName;
-            var proveedorDeValores = bidingContext.ValueProvider.GetValue(nombrePropiedad);
+            var nombrePropiedad = bindingContext.ModelName;
+            var proveedorDeValores = bindingContext.ValueProvider.GetValue(nombrePropiedad);
 
             if (proveedorDeValores == ValueProviderResult.None)
             {
@@ -19,13 +21,12 @@ namespace ClientesAPI.Heplers
 
             try
             {
-                var valorDeserializado = JsonConvert.DeserializeObject<List<T>>(proveedorDeValores.FirstValue);
-                bidingContext.Result = ModelBindingResult.Success(valorDeserializado);
+                var valorDeserializado = JsonConvert.DeserializeObject<T>(proveedorDeValores.FirstValue);
+                bindingContext.Result = ModelBindingResult.Success(valorDeserializado);
             }
-
             catch
             {
-                bidingContext.ModelState.TryAddModelError(nombrePropiedad, "valor invalido para tipo List<int>");
+                bindingContext.ModelState.TryAddModelError(nombrePropiedad, "Valor inválido para tipo List<int>");
             }
 
             return Task.CompletedTask;

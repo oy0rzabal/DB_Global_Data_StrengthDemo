@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ClientesAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class peliculasCreacionDTO : Migration
+    public partial class peliculaCreacionDTO : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

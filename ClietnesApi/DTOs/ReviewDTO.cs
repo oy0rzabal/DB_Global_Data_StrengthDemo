@@ -1,0 +1,16 @@
+﻿using ClientesAPI.Entidades;
+using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
+
+namespace ClientesAPI.DTOs
+{
+    public class ReviewDTO
+    {
+        public int Id { get; set; }
+        public string Comentario { get; set; }
+        public int Puntuacion { get; set; }
+        public int PeliculaId { get; set; }
+        public string UsuarioId { get; set; }
+        public string NombreUsuario { get; set; }
+    }
+}

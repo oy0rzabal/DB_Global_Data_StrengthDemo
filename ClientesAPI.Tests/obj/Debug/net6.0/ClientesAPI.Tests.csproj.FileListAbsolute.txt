@@ -1,0 +1,6 @@
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClientesAPI.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClientesAPI.Tests\obj\Debug\net6.0\ClientesAPI.Tests.csproj.AssemblyReference.cache
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClientesAPI.Tests\obj\Debug\net6.0\ClientesAPI.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClientesAPI.Tests\obj\Debug\net6.0\ClientesAPI.Tests.AssemblyInfoInputs.cache
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClientesAPI.Tests\obj\Debug\net6.0\ClientesAPI.Tests.AssemblyInfo.cs
+C:\Users\oy0rzabal\Desktop\DB_Global_Data_StrengthDemo\DB_Global_Data_StrengthDemo\ClientesAPI.Tests\obj\Debug\net6.0\ClientesAPI.Tests.csproj.CoreCompileInputs.cache

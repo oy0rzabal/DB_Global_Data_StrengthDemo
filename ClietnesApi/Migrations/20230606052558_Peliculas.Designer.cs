@@ -13,7 +13,7 @@ namespace ClientesAPI.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
     [Migration("20230606052558_Peliculas")]
-    partial class peliculasCreacionDTO
+    partial class PeliculaCreacionDTO
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
